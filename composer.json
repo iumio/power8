@@ -1,0 +1,39 @@
+{
+  "name": "iumio/power8",
+  "license": "MIT",
+  "type": "project",
+  "description": "iumio Power8 is a ORM (Object Relational Mapping) which translate you database queries to PHP objects. Create objects more simply",
+  "keywords": [
+    "php-orm",
+    "iumio-power8",
+    "components",
+    "php7",
+    "namespaces",
+    "mvc-architecture",
+    "sql",
+    "object"
+  ],
+  "homepage": "https://power8.iumio.com",
+  "authors": [
+    {
+      "name": "Dany Rafina",
+      "email": "dany.rafina@iumio.com",
+      "homepage": "https://www.linkedin.com/in/dany-rafina/",
+      "role": "iumio Power8 Architect / iumio Founder "
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Power8\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "php-di/php-di": "6.*",
+    "php-di/invoker": "2.*",
+    "doctrine/annotations": "1.6.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  }
+}

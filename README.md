@@ -1,4 +1,4 @@
-<p align="center"><a href="https://framework.iumio.com" target="_blank">
+<p align="center"><a href="https://power8.iumio.com" target="_blank">
     <img src="https://iumio.com/wp-content/uploads/2018/02/cropped-iumio.logo_.black_.png">
 </a></p>
 
