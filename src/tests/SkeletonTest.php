@@ -29,7 +29,7 @@ class SkeletonTest extends TestCase
     public function testObjectCreation():void {
         $dbs = new DatabaseSkeleton();
         $tbs = new TableSkeleton();
-        $this->assertInternalType("\Power8\Dql\Skeleton\SkeletonInterface", $dbs);
-        $this->assertInternalType("\Power8\Dql\Skeleton\SkeletonInterface", $tbs);
+        $this->assertInternalType("object", $dbs);
+        $this->assertInternalType("object", $tbs);
     }
 }

@@ -11,16 +11,16 @@
  *  * To get more information about licence, please check the licence file
  *
  */
-
 declare(strict_types=1);
 
 namespace Power8\Dql\Skeleton;
 
+
 /**
- * Class TableSkeleton
+ * Class ColumnSkeleton
  * @package Power8\Dql\Skeleton
  */
-final class TableSkeleton implements SkeletonInterface
+class ColumnSkeleton implements SkeletonInterface
 {
     public function create(): bool
     {

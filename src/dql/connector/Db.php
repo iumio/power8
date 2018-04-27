@@ -14,9 +14,19 @@
 
 declare(strict_types=1);
 
-namespace Power8\Dql;
+namespace Power8\Dql\Connector;
 
-final class Utilis
+
+class Db
 {
+    private static $dbInstance = null;
+
+    private function __construct()
+    {
+    }
+
+    final public static function getConnection() {
+
+    }
 
 }

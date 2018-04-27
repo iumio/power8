@@ -14,9 +14,10 @@
 
 declare(strict_types=1);
 
-namespace Power8\Dql;
+namespace Power8\Resolver\Parser;
 
-final class Utilis
+
+class JsonParser implements ParserInterface
 {
 
 }

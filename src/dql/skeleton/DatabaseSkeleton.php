@@ -22,6 +22,25 @@ namespace Power8\Dql\Skeleton;
  */
 final class DatabaseSkeleton implements SkeletonInterface
 {
+    public function create(): bool
+    {
+        // TODO: Implement create() method.
+    }
+
+    public function read(): object
+    {
+        // TODO: Implement read() method.
+    }
+
+    public function update(): bool
+    {
+        // TODO: Implement update() method.
+    }
+
+    public function delete(): bool
+    {
+        // TODO: Implement delete() method.
+    }
 
 
 }

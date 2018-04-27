@@ -14,19 +14,14 @@
 
 declare(strict_types=1);
 
-namespace Power8\Dql\Skeleton;
+namespace Power8\Tests;
+
+use PHPUnit\Framework\TestCase;
 
 /**
- * Interface SkeletonInterface
- * Declare the CRUD system
- * @package Power8\Dql\Skeleton
+ * Class XmlParserTest
+ * @package Power8\Tests
  */
-interface SkeletonInterface
+class XmlParserTest extends TestCase
 {
-
-    public function create():bool;
-    public function read():object;
-    public function update():bool;
-    public function delete():bool;
-
 }
